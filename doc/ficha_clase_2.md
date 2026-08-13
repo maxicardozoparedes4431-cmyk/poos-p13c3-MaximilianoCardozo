@@ -9,10 +9,10 @@
 
 | Identificación | Información |
 |---|---|
-| Integrante 1 | COMPLETAR |
-| Integrante 2 | COMPLETAR |
-| Sección y fecha | COMPLETAR |
-| URL del repositorio | COMPLETAR AL FINAL |
+| Integrante 1 | Maixmiliano Cardozo |
+| Integrante 2 |  |
+| Sección y fecha | TI3021, 8/13/2026 |
+| URL del repositorio | https://github.com/maxicardozoparedes4431-cmyk/poos-p13c3-MaximilianoCardozo.git |
 
 ## Propósito
 
@@ -28,23 +28,23 @@ Analizar y delimitar una funcionalidad antes de diseñar clases o escribir códi
 
 ### 1.1 Tres hechos explícitos
 
-1. COMPLETAR
-2. COMPLETAR
-3. COMPLETAR
+1. Que exista un entrenador
+2. Que exista una criatura
+3. El entrenador intenta capturar a la criatura
 
 ### 1.2 Tres ambigüedades convertidas en preguntas
 
 | N.º | Expresión ambigua | Pregunta que debe responder el cliente |
 |---:|---|---|
-| 1 | COMPLETAR | COMPLETAR |
-| 2 | COMPLETAR | COMPLETAR |
-| 3 | COMPLETAR | COMPLETAR |
+| 1 | "Criatura salvaje cercana" | ¿Que tan cercano está la criatura? |
+| 2 | "Intenta capturarla utilizando una cápsula de su inventario" | ¿Se consume la cápsula al usarse? |
+| 3 | "Intenta capturarla" | ¿Como determinar si se logra la captura de la criatura? |
 
 ### 1.3 Supuesto provisional
 
-**Supuesto:** COMPLETAR  
-**Por qué es provisional:** COMPLETAR  
-**Cómo podría confirmarse:** COMPLETAR
+**Supuesto:** La criatura es capturada 
+**Por qué es provisional:** Para una colección  
+**Cómo podría confirmarse:** Con la cápsula
 
 Un supuesto no es una verdad del caso. Debe quedar marcado hasta que el cliente, una regla oficial o una evidencia lo confirme.
 
@@ -56,34 +56,34 @@ Fórmula orientadora:
 
 ### 2.1 Actor, necesidad y objetivo
 
-**Actor principal:** COMPLETAR  
-**Necesidad:** COMPLETAR  
-**Objetivo reescrito:** COMPLETAR
+**Actor principal:** El entrenador  
+**Necesidad:** Capturar a la criatura  
+**Objetivo reescrito:** Capturar a la criatura
 
 ### 2.2 Entrada, proceso y salida (EPS)
 
 #### Entradas necesarias
 
-1. COMPLETAR
-2. COMPLETAR
-3. COMPLETAR
-4. COMPLETAR
+1. Entrenador
+2. Criatura
+3. Inventario
+4. Capsula
 
 #### Proceso observable
 
-1. COMPLETAR
-2. COMPLETAR
-3. COMPLETAR
+1. Ataque de la criatura
+2. Intento de captura
+3. 
 4. COMPLETAR
 5. COMPLETAR
 6. COMPLETAR
 
 #### Salidas esperadas
 
-1. COMPLETAR
-2. COMPLETAR
-3. COMPLETAR
-4. COMPLETAR
+1. Captura confirmada
+2. Captura rechazada
+3. No hay capsulas
+4. La criatura se escapa
 
 **Prueba de coherencia:** cada salida debe poder explicarse a partir de una entrada, una regla conocida y un paso del proceso.
 
@@ -93,16 +93,16 @@ Una **regla** define qué comportamiento es válido. Una **restricción** limita
 
 ### 3.1 Reglas del problema
 
-1. COMPLETAR
-2. COMPLETAR
-3. COMPLETAR
-4. COMPLETAR
+1. Solo una criatura por capsula
+2. Ataques por turnos
+3. 3 intentos de captura
+4. Debe haber espacio para la capsula en su inventario
 
 ### 3.2 Restricciones
 
-1. COMPLETAR
-2. COMPLETAR
-3. COMPLETAR
+1. 30 metros max de distancia para capturar
+2. 30 capsulas max
+3. Inventario tiene solo para 50 objetos
 
 ### 3.3 Delimitación de la primera versión
 
@@ -180,6 +180,7 @@ Primero guarden la ficha original. La IA puede detectar vacíos y formular pregu
 > No publiquen contraseñas, correos personales, claves, tokens ni información sensible en la consulta o en el repositorio.
 
 ## 6. Mini desafío: cambia una condición
+
 
 > Cada entrenador puede llevar como máximo seis criaturas activas. Si su equipo está completo, una captura exitosa debe enviarse a la reserva.
 
