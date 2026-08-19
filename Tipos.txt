@@ -1,0 +1,43 @@
+Clase
+
+- Describe un tipo de elemento
+- Define datos y comportamientos comunes
+
+
+
+Objeto
+
+- Instancia concreta
+- Posee identidad y valores propios
+	
+
+	Cada objeto posee Identidad, Estado y Comportamiento
+		
+	- La identidad permite reconocer la instancia
+	- El estado significa los valores actuales
+	- Comportamiento permite las acciones posible
+
+
+Clasifica entre clase, objeto, atributo, valor, método o responsabilidad
+
+- criatura | clase
+- criatura_electrica | objeto
+- Distancia | atributo
+- 30 metros | valor
+- consumir_capsula() | método
+- Inventario | clase
+- Administrar capsulas | responsabilidad
+
+
+
+
+
+
+
+
+
+
+
+
+
+
