@@ -6,7 +6,7 @@
 - **Sección:** P13C3
 - **Fecha:** 19/08/2026
 - **Compañero(a) de trabajo:** COMPLETAR
-- **Repositorio individual:** `completar`
+- **Repositorio individual:** `https://github.com/maxicardozoparedes4431-cmyk/poos-p13c3-MaximilianoCardozo`
 
 # Parte 0. Punto de partida validado
 
